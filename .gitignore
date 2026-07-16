@@ -1,0 +1,35 @@
+# --- Python 가상환경 ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- Python 캐시/빌드 ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# --- 환경변수/비밀 ---
+.env
+.env.*
+!.env.example
+
+# --- 데이터 (merged_data_v3.csv만 트래킹) ---
+*.parquet
+merged_data.csv
+
+# --- OS / 에디터 ---
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

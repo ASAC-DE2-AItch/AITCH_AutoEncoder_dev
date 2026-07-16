@@ -27,6 +27,12 @@ dist/
 *.parquet
 merged_data.csv
 
+# --- 모델 산출물 (노트북 실행으로 재생성) ---
+*.pt
+*.pth
+*.pkl
+*.joblib
+
 # --- OS / 에디터 ---
 .DS_Store
 Thumbs.db
